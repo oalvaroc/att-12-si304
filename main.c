@@ -8,7 +8,7 @@ int main(int argc, char const *argv[])
 {
     printf("%s\t%d\n", argv[0], argc);
 
-    double numbers[argc];
+    double *numbers = calloc(argc - 1, sizeof(double));
 
     for(int i = 0; i < argc; i++){
         numbers[i-1] = atof(argv[i]);
