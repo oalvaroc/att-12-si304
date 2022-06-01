@@ -39,7 +39,7 @@ int main()
 
 		case(4):
    			resultado=valor1*valor2;
-    		printf("Resultado:%2.f",resultado );
+    			printf("Resultado:%2.f",resultado );
    
 			break;
 
