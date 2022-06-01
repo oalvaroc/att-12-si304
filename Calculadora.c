@@ -38,6 +38,8 @@ int main()
 			break;
 
 		case(6):
+			resultado=valor1**valor2;
+			printf("Resultado:%2.f\n",resultado );
 			break;
 			
 	}
