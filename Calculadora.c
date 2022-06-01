@@ -41,6 +41,8 @@ int main()
 			break;
 
 		case(5):
+			resultado = ((int)valor1 / (int)valor2)
+			printf("Resultado: %2.f\n", resultado);
 			break;
 
 		case(6):
@@ -57,6 +59,6 @@ int main()
 			
 	}
 
-	
+
 	return 0;
 }
