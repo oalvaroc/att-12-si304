@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 float valor1, valor2, resultado;
 int operador;
 
@@ -32,6 +33,8 @@ int main()
 			break;
 
 		case(3):
+			resultado = valor1 / valor2;
+			printf("Resultado: %2.f", resultado);
 			break;
 
 		case(4):
@@ -46,12 +49,12 @@ int main()
 			break;
 
 		case(6):
-			resultado=valor1**valor2;
+			resultado=pow(valor1,valor2);
 			printf("Resultado:%2.f\n",resultado );
 			break;
 		case(7):
-			resultado = valor1 % valor2;
-			printf("Resultado:%2.f\n",resultado );
+			resultado = (int)valor1 % (int)valor2;
+			printf("Resultado: %2.f\n",resultado );
 			break;
 		default:
 			printf("Operação inválida!\n");
