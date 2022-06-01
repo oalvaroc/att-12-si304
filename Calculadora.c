@@ -26,6 +26,8 @@ int main()
 			break;
 
 		case(2):
+			resultado = valor1 - valor2;
+			printf("Resultado:%2.f\n",resultado );
 			break;
 
 		case(3):
