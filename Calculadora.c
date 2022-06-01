@@ -16,6 +16,7 @@ int main()
 	printf("4- Multiplicação\n");
 	printf("5- Divisao inteira\n");
 	printf("6- Exponencial\n");
+	printf("7- Resto de divisão\n");
 	scanf("%d",&operador);
 	printf("------------------------------------------------------\n");
 
@@ -45,6 +46,13 @@ int main()
 		case(6):
 			resultado=valor1**valor2;
 			printf("Resultado:%2.f\n",resultado );
+			break;
+		case(7):
+			resultado = valor1 % valor2;
+			printf("Resultado:%2.f\n",resultado );
+			break;
+		default:
+			printf("Operação inválida!\n");
 			break;
 			
 	}
